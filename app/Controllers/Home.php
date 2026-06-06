@@ -1,0 +1,23 @@
+<?php
+
+//Aqui onde criamos o controller para rodar na aplicação.
+
+namespace App\Controllers;
+
+class Home extends BaseController
+{
+    public function index(): string
+    {
+        return view('welcome_message');
+    }
+
+    public function Hello(): string
+    {
+        return 'Hello';
+    }
+
+    public function Teste(): string 
+    {
+        return 'Pequeno teste para ver se eu entendi como faz uma rota';
+    }
+}
