@@ -20,4 +20,9 @@ class Home extends BaseController
     {
         return 'Pequeno teste para ver se eu entendi como faz uma rota';
     }
+
+    public function usuario($id)
+    {
+        return 'usuario ' . $id;
+    }
 }
