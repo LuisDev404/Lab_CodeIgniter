@@ -30,4 +30,9 @@ class Home extends BaseController
     {
         return 'perfil ' . $name;
     }
+
+    public function soma($n1,$n2)
+    {
+        return 'O valor é ' . $n1 + $n2;
+    }
 }

@@ -14,3 +14,6 @@ $routes->get('/Teste', 'Home::Teste');
 //Rotas com parâmetros.
 $routes->get('/usuario/(:num)', 'Home::usuario/$1');
 $routes->get('/perfil/(:segment)', 'Home::perfil/$1');
+
+//Rota com mútiplos parâmetros
+$routes->get('/soma/(:num)/(:num)', 'Home::soma/$1/$2');
