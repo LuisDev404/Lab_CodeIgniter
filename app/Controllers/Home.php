@@ -25,4 +25,9 @@ class Home extends BaseController
     {
         return 'usuario ' . $id;
     }
+
+    public function perfil($name)
+    {
+        return 'perfil ' . $name;
+    }
 }

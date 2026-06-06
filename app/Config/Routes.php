@@ -13,3 +13,4 @@ $routes->get('/Teste', 'Home::Teste');
 
 //Rotas com parâmetros.
 $routes->get('/usuario/(:num)', 'Home::usuario/$1');
+$routes->get('/perfil/(:segment)', 'Home::perfil/$1');
